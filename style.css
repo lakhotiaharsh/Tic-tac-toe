@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  font-family: "Rubik Doodle Triangles";
+  border: border-box;
+  background-color: #003049;
+  color: #c1121f;
+  text-align: center;
+}
+.heading {
+  text-align: center;
+  font-size: 10vmin;
+  font-weight: 500;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 72vmin;
+  width: 72vmin;
+}
+.box {
+  height: 30%;
+  width: 30%;
+  background: #fdf0d5;
+  border: none;
+  border-radius: 2rem;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  font-size: 12vmin;
+}
+button {
+  height: 15vmin;
+  width: 25vmin;
+  background: #669bbc;
+  font-size: 5vmin;
+  color: #c1121f;
+  border-radius: 2rem;
+}
+.msg {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.hide {
+  display: none;
+}
